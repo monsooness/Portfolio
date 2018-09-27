@@ -1,0 +1,33 @@
+.photoContainer {
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  flex-flow: row wrap;
+}
+
+.photoGrid {
+  border: 1px solid black;
+  align-self: stretch;
+  flex-shrink: 900;
+  flex-grow: 2;
+  width: 100px;  
+  height: auto;
+  margin: auto;  
+}
+
+@media all and (max-width: 400px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: stretch;
+    flex-direction: row;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 10px) {
+  .navigation {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: row;
+    justify-content: stretch;
+  }
+}
