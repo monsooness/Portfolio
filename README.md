@@ -1,1 +1,1 @@
-A personal portfolio showcasing all of my art work
+This is a personal portfolio showcasing all of my artwork in one website.

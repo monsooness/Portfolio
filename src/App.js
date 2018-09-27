@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-
-import './App.css';
 import PhotoGrid from './Photogrid';
-
-//parent
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -17,15 +14,9 @@ class App extends Component {
     console.log(this.state.photos)
     return (
       <div className="photoContainer">
-          {/* {this.state.photos.forEach( (country) => 
-            <PhotoGrid />
-          )} */}
-          <PhotoGrid />
-          <PhotoGrid />
-          <PhotoGrid />
-          <PhotoGrid />
-          <PhotoGrid />
-          <PhotoGrid />
+          {this.state.photos.map( (country, index) => 
+            <PhotoGrid photos={this.state.photos.country} key={country.name +' '+ index}/>
+          )}
       </div>
     );
   }
