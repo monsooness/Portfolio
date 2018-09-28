@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import museumTop from './Photos/museumTop.jpg'
 
 class Photogrid extends Component {
+
   constructor(props) {
     super(props)
     this.state = {
@@ -9,15 +11,19 @@ class Photogrid extends Component {
     }
   }
 
-  componentWillReceiveProps(props) {
-    console.log(props)
-  }
-
   render() {
-    console.log(this.props, this.key)
+    console.log(this.props.photos)
+
     return (
       <div className="photoGrid">
-        children
+        {this.props.photos.map( (elem) => {
+          return(
+            <div>
+            <img src={museumTop} />
+            </div>
+          )
+          }
+        )}
       </div>
     );
   }

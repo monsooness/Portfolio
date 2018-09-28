@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
-import PhotoGrid from './Photogrid';
+
+import India from './India'
+import Myanmar from './Myanmar'
+import Nepal from './Nepal'
+import Bhutan from './Bhutan'
+import Peru from './Peru'
+
 import './App.css';
+
 
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      photos: this.props.data
-    }
   }
 
   render() {
-    console.log(this.state.photos)
     return (
       <div className="photoContainer">
-          {this.state.photos.map( (country, index) => 
-            <PhotoGrid photos={this.state.photos.country} key={country.name +' '+ index}/>
-          )}
+        <India />
+        <Myanmar />
+        <Nepal />
+        <Bhutan />
+        <Peru />
       </div>
     );
   }
