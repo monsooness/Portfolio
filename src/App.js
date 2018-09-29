@@ -18,10 +18,10 @@ class App extends Component {
     return (
       <div className="photoContainer">
         <India />
-        <Myanmar />
         <Nepal />
-        <Bhutan />
         <Peru />
+        <Bhutan />
+        <Myanmar />
       </div>
     );
   }

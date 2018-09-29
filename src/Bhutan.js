@@ -7,13 +7,15 @@ class Bhutan extends Component {
   }
   
   render() {
+    const items = [...Array(100)].map((val, i) => `Item ${i}`);
     return (
       <div className="photoGrid">
-        <div>
-          Bhutan
-        </div>
+       Bhutan
+       <ul>
+        {items.map((item, i) => (<li key={`item_${i}`}>{ item }</li>))}
+      </ul>
       </div>
-    )
+    );
   }
 }
 

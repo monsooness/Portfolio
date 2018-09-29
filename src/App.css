@@ -1,16 +1,14 @@
 .photoContainer {
   display: flex;
-  align-items: stretch;
-  align-content: stretch;
   flex-flow: row wrap;
+  height: 100vh;
 }
 
 .photoGrid {
+  flex-grow: 1;
   border: 1px solid black;
-  align-self: stretch;
-  flex-shrink: 900;
-  flex-grow: 2;
+  overflow-y: scroll; 
   width: 100px;  
-  height: auto;
-  margin: auto;  
+  overflow-y: scroll;
+  height: 100vh;
 }

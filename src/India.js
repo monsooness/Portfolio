@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import museumTop from './Photos/museumTop.jpg'
+import Img from "gatsby-image"
+
 import './App.css';
 
 class India extends Component {
-
   constructor(props) {
     super(props)
   }
 
   render() {
-    function importAll(r) {
-      return r.keys().map(r);
-    }
-    const images = importAll(require.context('./Photos/India', false, /\.(png|jpe?g|svg)$/));
+    const items = [...Array(100)].map((val, i) => `Item ${i}`);
     return (
       <div className="photoGrid">
-       <img src={bridges.jpg} />
-       
+       India
+       <ul>
+        {items.map((item, i) => (<li key={`item_${i}`}>{ item }</li>))}
+      </ul>
       </div>
     );
   }
