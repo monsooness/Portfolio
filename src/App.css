@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: row wrap;
   height: 100vh;
+ 
 }
 
 .photoGrid {
@@ -11,4 +12,5 @@
   width: 100px;  
   overflow-y: scroll;
   height: 100vh;
+  
 }
