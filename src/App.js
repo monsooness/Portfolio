@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { graphql } from "gatsby";
+
 import India from './India'
 import Myanmar from './Myanmar'
 import Nepal from './Nepal'
@@ -28,3 +30,4 @@ class App extends Component {
 }
 
 export default App;
+
