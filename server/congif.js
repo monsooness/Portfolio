@@ -1,0 +1,3 @@
+export S3_BUCKET="monsoonportfolio"
+export AWS_ACCESS_KEY_ID="AKIAJPFSNFV7MLND4SBQ"
+export AWS_SECRET_ACCESS_KEY="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"
