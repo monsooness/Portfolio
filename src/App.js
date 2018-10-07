@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
-import { graphql } from "gatsby";
-
-import India from './India'
-import Myanmar from './Myanmar'
-import Nepal from './Nepal'
-import Bhutan from './Bhutan'
-import Peru from './Peru'
+import India from './Photography/India'
+import Myanmar from './Photography/Myanmar'
+import Nepal from './Photography/Nepal'
+import Bhutan from './Photography/Bhutan'
+import Peru from './Photography/Peru'
 
 import './App.css';
 
