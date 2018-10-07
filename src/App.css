@@ -14,3 +14,7 @@
   height: 100vh;
   
 }
+
+.photoGrid img {
+  width: 100%;
+}
