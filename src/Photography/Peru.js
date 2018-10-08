@@ -10,6 +10,7 @@ const images = importAll(require.context('./Photos/Peru/', false, /\.(png|jpe?g|
 
 const Peru = (props) => (
   <div className="photoGrid">
+    <div className="sticky">Peru</div>
     { Object.keys(images).map( (t) => <img className="photos" src={images[t]}/>  ) }
   </div>
 )

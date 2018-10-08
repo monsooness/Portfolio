@@ -11,10 +11,17 @@
   width: 100px;  
   overflow-y: scroll;
   height: 100vh;
-  
 }
 
 .photoGrid img {
   width: 100%;
-  padding: 100px -100px 10px 10px
+  margin: -2px 0px;
+}
+
+.sticky {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  align-self: flex-end;
 }
