@@ -7,9 +7,13 @@ class Header extends Component {
 
   render() {
     return(
-      
+      <div className="navbar">
+        <p>Nav</p>
+      </div>
     )
   }
 }
 
 export default Header;
+
+
