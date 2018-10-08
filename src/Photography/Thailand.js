@@ -6,7 +6,7 @@ function importAll(r) {
   return images;
 }
     
-const images = importAll(require.context('./Photos/Bhutan/', false, /\.(png|jpe?g|svg|JPG)$/));
+const images = importAll(require.context('./Photos/Thailand/', false, /\.(png|jpe?g|svg|JPG)$/));
 
 const Thailand = (props) => (
   <div className="photoGrid">
@@ -14,4 +14,4 @@ const Thailand = (props) => (
   </div>
 )
 
-export default Thailand
+export default Thailand;
