@@ -7,7 +7,6 @@
 
 .photoGrid {
   flex-grow: 1;
-  border: 1px solid black;
   overflow-y: scroll; 
   width: 100px;  
   overflow-y: scroll;

@@ -6,7 +6,7 @@ function importAll(r) {
   return images;
 }
     
-const images = importAll(require.context('./Photos/India/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('./Photos/Indiaa/', false, /\.(png|jpe?g|svg|JPG)$/));
 
 const India = (props) => (
   <div className="photoGrid">
