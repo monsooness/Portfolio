@@ -9,7 +9,14 @@ body {
 }
 
 .navbar {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.navbar p {
+  padding: 0px 20px;
 }
 
 .photoContainer {
@@ -21,7 +28,6 @@ body {
   flex-grow: 1;
   overflow-y: scroll; 
   width: 100px;  
-  overflow-y: scroll;
   height: 93vh;
 }
 
@@ -32,9 +38,9 @@ body {
 
 .sticky {
   text-align: center;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2rem;
-  align-self: flex-end;
+  background-color: #333333;
+  height: 5vh;
+  color: white;
+  text-transform: uppercase;
 }
 

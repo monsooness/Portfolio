@@ -8,12 +8,13 @@ class Header extends Component {
   render() {
     return(
       <div className="navbar">
-        <p>Nav</p>
+        <p>Photography</p>
+        <p>Math Art</p>
+        <p>Resume</p>
+        <p>About Me</p>
       </div>
     )
   }
 }
 
 export default Header;
-
-
