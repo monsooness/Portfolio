@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
+import { Switch, BrowserRouter, Route } from 'react-router-dom'
 
-import India from './Photography/India'
-import Myanmar from './Photography/Myanmar'
-import Nepal from './Photography/Nepal'
-import Bhutan from './Photography/Bhutan'
-import Peru from './Photography/Peru'
-import Thailand from './Photography/Thailand'
-import Header from './Header/Header'
-
+import Photography from './Components/Photography/Photography'
+import Navigation from './Components/Navigation/Navigation';
 import './App.css';
-
 
 
 class App extends Component {
@@ -20,15 +14,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="photoContainer">
-          <India />
-          <Nepal />
-          <Peru />
-          <Bhutan />
-          <Myanmar />
-          <Thailand />
-        </div>
-        <div><Header /></div>
+        <BrowserRouter>
+          <div>
+          <Switch>
+            <Route exact path="/" component={Photography}/>
+            {/* <Route path="/Mathart" component={Mathart}/>
+            <Route path="/Resume" component={Resume}/>
+            <Route path="/Aboutme" component={Aboutme}/> */}
+          </Switch>
+          <Navigation />
+
+
+            </div>
+        </BrowserRouter>
       </div>
     );
   }
