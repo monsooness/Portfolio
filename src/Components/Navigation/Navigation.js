@@ -6,10 +6,10 @@ import './Navigation.css'
 const Navigation = () => {
   return (
     <div className="navbar">
-      <NavLink to="/">Photographyy</NavLink>
-      {/* <NavLink to="/mathart">Math Art</NavLink>
-      <NavLink to="/resume">Resume</NavLink>
-      <NavLink to="/aboutme">About Me</NavLink> */}
+      <NavLink to="/" className="inactive" activeClassName="active">Photography</NavLink>
+      <NavLink to="/mathart" className="inactive" activeClassName="active">Math Art</NavLink>
+      <NavLink to="/resume" className="inactive" activeClassName="active">Resume</NavLink>
+      <NavLink to="/aboutme" className="inactive" activeClassName="active">About Me</NavLink> 
     </div>
   );
 };

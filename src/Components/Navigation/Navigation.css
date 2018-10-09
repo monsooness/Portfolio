@@ -5,6 +5,19 @@
   text-transform: uppercase;
 }
   
-.navbar {
-  padding: 0px 20px;
+NavLink {
+  padding: 20px 20px;
+}
+
+.inactive {
+  color: #808080;
+  text-decoration: none;
+  padding: 0px 30px;
+  line-height: 7vh;
+  letter-spacing: 3px;
+}
+
+.active {
+  color: #333333;
+  text-decoration: none;
 }
