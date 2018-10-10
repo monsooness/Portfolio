@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
 
-// import './Aboutme.css'
+import './Mathart.css'
 
 class Mathart extends Component {
 
   render() {
     return (
-      <div className="photoContainer">
+      <div className="container">
        <p>Math Art</p>
       </div>
     )

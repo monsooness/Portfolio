@@ -17,7 +17,7 @@ class Photography extends Component {
 
   render() {
     return (
-      <div className="photoContainer">
+      <div className="container">
         <India />
         <Nepal />
         <Peru />

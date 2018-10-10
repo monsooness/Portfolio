@@ -19,17 +19,15 @@ class App extends Component {
       <div>
         <BrowserRouter>
           <div>
-          <Switch>
-            <Route exact path="/" component={Photography}/>
-            <Route path="/Mathart" component={Mathart}/>
-            <Route path="/Resume" component={Resume}/>
-            <Route path="/Aboutme" component={Aboutme}/>
-            <Route component={Error} />
-          </Switch>
-          <Navigation />
-
-
-            </div>
+            <Switch className="container">
+              <Route exact path="/" component={Photography}/>
+              <Route path="/Mathart" component={Mathart}/>
+              <Route path="/Resume" component={Resume}/>
+              <Route path="/Aboutme" component={Aboutme}/>
+              <Route component={Error} />
+            </Switch>
+            <Navigation />
+          </div>
         </BrowserRouter>
       </div>
     );
