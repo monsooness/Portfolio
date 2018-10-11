@@ -1,18 +1,30 @@
 .intro {
   background-color: #333333;
-  height: 5vh;
   color: white;
   text-transform: uppercase;
+  height: 5vh;
   line-height: 5vh;
 }
 
 .art {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .image {
   flex-grow: 1;
+  flex-shrink: 100;
+  border: 1pt solid black;
+  padding: 13vh;
+  width: 100%;
+  
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 
