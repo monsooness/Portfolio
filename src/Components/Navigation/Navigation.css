@@ -1,12 +1,11 @@
 .navbar {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   text-transform: uppercase;
   position: fixed;
   bottom: 0;
   background-color: white;
-  flex-grow: 1;
+  width: 100%;
 }
   
 NavLink {
@@ -25,3 +24,4 @@ NavLink {
   color: #333333;
   text-decoration: none;
 }
+

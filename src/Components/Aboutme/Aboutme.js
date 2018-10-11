@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
 
+import headshot from './Photos/headshot.JPG'
+
+
 import './Aboutme.css'
 
 class Aboutme extends Component {
@@ -9,10 +12,13 @@ class Aboutme extends Component {
     return (
       <div>
         <div className="intro">
-
+          Creating > Consuming
         </div>
-        <div className="container">
-        <p>About me</p>
+        <div className="about-container">
+          <div className="item">
+          <img src={headshot} alt="Head Shot of me"/>
+          <h1>Hello</h1>
+          </div>
         </div>
       </div>
     )
