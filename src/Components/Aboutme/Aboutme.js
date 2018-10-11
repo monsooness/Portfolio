@@ -7,8 +7,13 @@ class Aboutme extends Component {
 
   render() {
     return (
-      <div className="container">
-       <p>About me</p>
+      <div>
+        <div className="intro">
+
+        </div>
+        <div className="container">
+        <p>About me</p>
+        </div>
       </div>
     )
   }
