@@ -9,20 +9,16 @@
 .art {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .image {
   flex-grow: 1;
   flex-shrink: 100;
-  border: 1pt solid black;
-  padding: 13vh;
-  width: 100%;
-  
-  height: auto;
+
 }
 
-img {
+.art img {
   width: 100%;
   height: auto;
 }
