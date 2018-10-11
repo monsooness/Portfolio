@@ -7,8 +7,31 @@ class Mathart extends Component {
 
   render() {
     return (
-      <div className="container">
-       <p>Math Art</p>
+      <div>
+        <div className="intro">
+          Circles
+        </div>
+       
+        <div classNam="art-container">
+
+          <div className="art">
+            <div className="image">art1</div>
+            <div className="image">art2</div>
+            <div className="image">art3</div>
+          </div>
+
+          <div className="art">
+            <div className="image">art1</div>
+            <div className="image">art2</div>
+            <div className="image">art3</div>
+          </div>
+
+          <div className="art">
+            <div className="image">art1</div>
+            <div className="image">art2</div>
+            <div className="image">art3</div>
+          </div>   
+        </div>
       </div>
     )
   }

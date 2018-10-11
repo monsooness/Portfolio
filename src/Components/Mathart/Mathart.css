@@ -1,3 +1,19 @@
-.container {
-  height: 90vh;
+.intro {
+  background-color: #333333;
+  height: 5vh;
+  color: white;
+  text-transform: uppercase;
+  line-height: 5vh;
 }
+
+.art {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  flex-grow: 1;
+}
+
+
+
