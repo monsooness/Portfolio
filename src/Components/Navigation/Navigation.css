@@ -3,6 +3,10 @@
   flex-direction: row;
   justify-content: center;
   text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  flex-grow: 1;
 }
   
 NavLink {
@@ -13,7 +17,7 @@ NavLink {
   color: #808080;
   text-decoration: none;
   padding: 0px 30px;
-  line-height: 10vh;
+  line-height: 8vh;
   letter-spacing: 3px;
 }
 

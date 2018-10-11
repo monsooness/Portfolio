@@ -6,16 +6,14 @@
   line-height: 5vh;
 }
 
+.art-container {
+  overflow-y: scroll; 
+}
+
 .art {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
-}
-
-.image {
-  flex-grow: 1;
-  flex-shrink: 100;
-
+  overflow-y: scroll; 
 }
 
 .art img {
