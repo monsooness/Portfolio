@@ -7,20 +7,8 @@
 }
 
 .about-container {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  margin: 5%;
-  align-items: center;
-  justify-content: center;
+  margin: 2%
 }
 
-.item {
 
-  border: 1pt solid black 
-}
 
-.item img {
-  align-self: center;
-  width: 70%
-}

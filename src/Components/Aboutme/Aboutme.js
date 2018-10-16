@@ -15,10 +15,7 @@ class Aboutme extends Component {
           Creating > Consuming
         </div>
         <div className="about-container">
-          <div className="item">
-          <img src={headshot} alt="Head Shot of me"/>
           <h1>Hello</h1>
-          </div>
         </div>
       </div>
     )

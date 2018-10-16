@@ -26,7 +26,7 @@ class Mathart extends Component {
        
         <div classNam="art-container">
 
-          <div className="art">
+          <div className="art" >
             <div className="image"><img src={image1} alt="Circular graph"/></div>
             <div className="image"><img src={image2} alt="Circular graph"/></div>
             <div className="image"><img src={image3} alt="Circular graph"/></div>
