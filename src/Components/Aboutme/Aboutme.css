@@ -8,13 +8,14 @@
 
 .about-container {
   text-align: center;
-  margin: auto;
-    width: 50%;
-    border: 3px solid green;
-  
+
 }
 
+img {
+  width:40vh; /* you can use % */
+  height: auto;
 
+}
 
 
 
