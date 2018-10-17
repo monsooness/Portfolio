@@ -7,17 +7,32 @@
 }
 
 .about-container {
-  text-align: center;
-  padding-top: 5vh;
+  display: flex;
+  padding: 15vh;
+  justify-content: center;
+
 }
 
-
-
-img {
+.about-container img {
   width:40vh; 
   height: auto;
+  padding: 2vh;
 }
 
+@media all and (max-width: 800px) {
+  .about-container {
+    justify-content: column;
+    padding: 25px;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 
 

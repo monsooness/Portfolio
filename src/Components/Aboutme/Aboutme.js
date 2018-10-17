@@ -16,7 +16,12 @@ class Aboutme extends Component {
         </div>
 
         <div className="about-container">
-        <img src={headshot} alt="headshot"/>  
+
+          <div>
+            <img src={headshot} alt="headshot"/>  
+          </div>
+
+          <div>
             <h2>MERN stack developer </h2>
             <p> I strike for modularity on the front end </p>
             <p> And scalability on the back end </p>
@@ -24,7 +29,9 @@ class Aboutme extends Component {
             <p> With newer technologies and larger datasets</p>
             <br></br>
             <p>You can contact me at:</p>
-            <p>nepzsoon@gmail.com</p>
+            <p><b>nepzsoon@gmail.com</b></p>
+          </div>
+
         </div>
       </div>
     )
