@@ -25,3 +25,19 @@ NavLink {
   text-decoration: none;
 }
 
+@media all and (max-width: 1000px) {
+  .navbar {
+    justify-content: column;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .inactive {
+    padding: 0px 10px;
+    line-height: 4vh;
+  }
+}

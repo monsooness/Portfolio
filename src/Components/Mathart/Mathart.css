@@ -18,5 +18,17 @@
   height: auto;
 }
 
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .art {
+    justify-content: space-around;
+  }
+}
 
+/* Small screens */
+@media all and (max-width: 500px) {
+  .art {
+    flex-direction: column;
+  }
+}
 

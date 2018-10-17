@@ -30,20 +30,24 @@ class Mathart extends Component {
             <div className="image"><img src={image1} alt="Circular graph"/></div>
             <div className="image"><img src={image2} alt="Circular graph"/></div>
             <div className="image"><img src={image3} alt="Circular graph"/></div>
-            <div className="image"><img src={image12} alt="Circular graph"/></div>
+           
           </div>
 
           <div className="art">
             <div className="image"><img src={image4} alt="Circular graph"/></div>
             <div className="image"><img src={image5} alt="Circular graph"/></div>
             <div className="image"><img src={image6} alt="Circular graph"/></div>
-            <div className="image"><img src={image11} alt="Circular graph"/></div>
           </div>
 
           <div className="art">
             <div className="image"><img src={image10} alt="Circular graph"/></div>
             <div className="image"><img src={image7} alt="Circular graph"/></div>
             <div className="image"><img src={image9} alt="Circular graph"/></div>
+          </div>
+
+          <div className="art">
+            <div className="image"><img src={image12} alt="Circular graph"/></div>
+            <div className="image"><img src={image11} alt="Circular graph"/></div>
             <div className="image"><img src={image8} alt="Circular graph"/></div>
           </div>
     

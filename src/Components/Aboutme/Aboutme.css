@@ -11,11 +11,13 @@
   padding-top: 5vh;
 }
 
-img {
-  width:40vh; /* you can use % */
-  height: auto;
 
+
+img {
+  width:40vh; 
+  height: auto;
 }
+
 
 
 
