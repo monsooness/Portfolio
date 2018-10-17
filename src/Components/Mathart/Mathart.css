@@ -7,10 +7,6 @@
   padding-left: 2%;
 }
 
-.art-container {
-  overflow-y: scroll; 
-}
-
 .art {
   display: flex;
   flex-direction: row;
