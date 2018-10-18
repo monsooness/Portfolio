@@ -41,7 +41,7 @@ class Aboutme extends Component {
           <a href='https://github.com/monsooness'><img src={github} alt="Github Logo"/></a> 
           <a href='https://www.linkedin.com/in/monsoonpandey/'><img src={linkedin} alt="Linkedin Logo"/></a> 
           <a href='https://www.facebook.com/pandeymonsoon'><img src={facebook} alt="facebook"/></a> 
-          <a href='https://arizonaatwork.com'><img src={instagram} alt="instagram"/></a> 
+          <a href='https://www.instagram.com/'><img src={instagram} alt="instagram"/></a> 
         </div>
 
       </div>
