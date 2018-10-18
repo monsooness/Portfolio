@@ -4,7 +4,7 @@
   text-transform: uppercase;
   position: fixed;
   bottom: 0;
-  background-color: white;
+  background-color: whitesmoke;
   width: 100%;
 }
 
@@ -31,16 +31,21 @@ NavLink {
 
 @media all and (max-width: 1000px) {
   .navbar {
-    justify-content: column;
-    position: relative;
+    justify-content: row;
+    position: fixed;
+    flex-wrap: wrap;
+  }
+  .inactive {
+    padding: 0px 10px;
+    line-height: 4vh;
   }
 }
 
 @media all and (max-width: 500px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    position: relative;
+    position: fixed;
   }
   .inactive {
     padding: 0px 10px;

@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-import headshot from './Photos/cropped-headshot.JPG'
+import headshot from './Photos/cropped-headshot.JPG';
+import github from './Photos/github.jpg';
+import facebook from './Photos/facebook.jpg';
+import linkedin from './Photos/linkedin.jpg';
+import instagram from './Photos/instagram.jpg'
 
 
 import './Aboutme.css'
@@ -31,8 +35,15 @@ class Aboutme extends Component {
             <p>You can contact me at:</p>
             <p><b>nepzsoon@gmail.com</b></p>
           </div>
-
         </div>
+
+        <div className="links">
+          <img src={github} alt="Github Logo"/> 
+          <img src={linkedin} alt="Linkedin Logo"/> 
+          <img src={facebook} alt="facebook"/> 
+          <img src={instagram} alt="instagram"/>
+        </div>
+
       </div>
     )
   }

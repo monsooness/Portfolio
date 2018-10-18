@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
+import ReactDOM from 'react-dom'
 
 import India from './India/India.js'
 import Myanmar from './Myanmar/Myanmar.js'

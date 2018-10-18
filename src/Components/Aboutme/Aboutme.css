@@ -8,15 +8,24 @@
 
 .about-container {
   display: flex;
-  padding: 15vh;
+  padding: 10vh;
   justify-content: center;
-
 }
 
 .about-container img {
   width:40vh; 
   height: auto;
   padding: 2vh;
+}
+
+.links {
+  border: 1pt solid black;
+  align-content: center;
+}
+
+.links img {
+  width: 10vh;
+  align-self: center;
 }
 
 @media all and (max-width: 800px) {
