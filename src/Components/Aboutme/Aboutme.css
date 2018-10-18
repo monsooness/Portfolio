@@ -8,7 +8,7 @@
 
 .about-container {
   display: flex;
-  padding: 10vh;
+  padding: 7vh;
   justify-content: center;
 }
 
@@ -16,23 +16,32 @@
   width:40vh; 
   height: auto;
   padding: 2vh;
+  padding-right: 3rem;
 }
 
 .links {
-  border: 1pt solid black;
+  display: flex;
   align-content: center;
+  justify-content: center
 }
 
 .links img {
   width: 10vh;
   align-self: center;
+  padding: 5rem;
 }
 
 @media all and (max-width: 800px) {
   .about-container {
-    justify-content: column;
+    flex-direction: column;
     padding: 25px;
     text-align: center;
+  }
+
+  .links img {
+    padding: .5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
   }
 }
 
@@ -40,6 +49,7 @@
   .about-container {
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
   }
 }
 
