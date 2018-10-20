@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
-import * as d3 from 'd3'
+import SFSU from './Images/SFSFU.JPG';
+import PG from './Images/profileGenomics.JPG';
+import MNM from './Images/mnm.jpg';
+import HR from './Images/hack-reactor.jpg'
 
 import './Resume.css'
 
@@ -15,7 +18,7 @@ render() {
           <ul id="bar">
             <li id="iphone">
               <div class="top">
-                <img src="images/iphone.png" alt="iPhone" />
+                <img src={SFSU} height="100" width="100" alt="SFSU" />
               </div>
               <div class="bottom">
                 <div class="infobox">
@@ -26,29 +29,29 @@ render() {
             </li>
             <li id="ipod">
               <div class="top">
-                <img src="images/ipod.png" alt="iPod" />
+                <img src={PG} height="100" width="100" alt="Profile Genomics" />
               </div>
               <div class="bottom">
                 <div class="infobox">
-                  <h3>Profile Genomics (2016)</h3>
+                  <h3>Profile Genomics (2017)</h3>
                   <p>Research Assistant </p>
                 </div>
               </div>
             </li>
             <li id="cinema">
               <div class="top">
-                <img src="images/cinema.png" alt="Cinema Display" />
+                <img src={MNM} height="100" width="100" alt="MNM" />
               </div>
               <div class="bottom">
                 <div class="infobox">
                   <h3>Freelance Developer (2018)</h3>
-                  <p>Learning programming / Freelancing </p>
+                  <p> Self-Teaching/Freelancing </p>
                 </div>
               </div>
             </li>
             <li id="macbook">
               <div class="top">
-                <img src="images/macbook.png" alt="MacBook" />
+                <img src={HR} height="100" width="100" alt="MacBook" />
               </div>
               <div class="bottom">
                 <div class="infobox">
