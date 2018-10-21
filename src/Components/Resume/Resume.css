@@ -11,14 +11,13 @@
   background: -moz-radial-gradient(#364D58,#000); 
   background: -webkit-gradient(radial, center center,10,center center,1000, from(#364D58), to(#000)); 
   color:#555; 
-  background-color:#151f23; 
 }
 
 /* COMMON CLASSES */
 .break { clear:both; }
 
 /* WRAPPER */
-#wrapper { width:800px; margin:40px auto; }
+#wrapper { width:45%; margin:110px auto; } 
 
 /* CONTENT */
 #content h2 { font: bold 30px Helvetica, Arial, Sans-serif; color:#eee; text-shadow: 0px 2px 6px #333; margin-left:400px; padding-top:20px; }
@@ -45,7 +44,7 @@
 	-webkit-transition-property: width;
 	-webkit-transition-duration: 500ms;
 }
-#bar li div.bottom div.infobox { padding:40px 0 0 600px;
+#bar li div.bottom div.infobox { padding:20px 0 0 500px;
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 500ms;
 }
@@ -59,7 +58,7 @@
 #bar li:hover div.bottom div.infobox { color:#eee; text-shadow: 0px 5px 5px #111; }
 #bar li:hover div.bottom div.infobox p { opacity:1; }
 
-/* iPhone bar */
+/* iPhone bar */ 
 #iphone div.top { z-index:99; }
 #iphone div.bottom { z-index:98; height:150px; }
 #iphone:hover div.top { z-index:999; background-color:#1f81ac; margin-left:160px; }
@@ -92,7 +91,14 @@
 #macmini div.bottom { z-index:90; height:120px; }
 #macmini:hover div.top { z-index:991; background-color:#3f1150; margin-left:130px; }
 #macmini:hover div.bottom { z-index:990; background-color:#340e43; width:170px;
-	background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#340e43), to(#1a0721)); }
+background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#340e43), to(#1a0721)); }
 
-#apple { clear:both; margin-top:-70px; position:relative; z-index:-999; }
-#apple p { float:right; padding-top:247px; }
+@media all and (max-width: 800px) {
+  #wrapper { width:145%; margin:110px auto; }
+  #bar li div.bottom div.infobox { padding:10px 250px;} 
+}
+
+@media all and (max-width: 500px) {
+  #wrapper { width:145%; margin:110px auto; } 
+  #bar li div.bottom div.infobox { padding:10px 250px;}
+}
