@@ -45,7 +45,7 @@ render() {
               <div class="bottom">
                 <div class="infobox">
                   <h3>Freelance Developer (2018)</h3>
-                  <p> Self-Teaching/Freelancing </p>
+                  <p> Self-Teaching/freelancing </p>
                 </div>
               </div>
             </li>

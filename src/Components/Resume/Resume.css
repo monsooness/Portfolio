@@ -10,7 +10,7 @@
 .container { 
   background: -moz-radial-gradient(#364D58,#000); 
   background: -webkit-gradient(radial, center center,10,center center,1000, from(#364D58), to(#000)); 
-  color:#555; 
+  color:rgb(147, 145, 145); 
 }
 
 /* COMMON CLASSES */
@@ -95,7 +95,7 @@ background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gr
 
 @media all and (max-width: 800px) {
   #wrapper { width:145%; margin:110px auto; }
-  #bar li div.bottom div.infobox { padding:10px 250px;} 
+  #bar li div.bottom div.infobox { padding:px 250px;} 
 }
 
 @media all and (max-width: 500px) {

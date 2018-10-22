@@ -32,8 +32,16 @@
   top: 0;
 }
 
+@media all and (max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
 @media all and (max-width: 500px) {
   .container {
-    flex-wrap: nowrap
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
