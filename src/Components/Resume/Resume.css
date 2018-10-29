@@ -58,32 +58,32 @@
 #bar li:hover div.bottom div.infobox { color:#eee; text-shadow: 0px 5px 5px #111; }
 #bar li:hover div.bottom div.infobox p { opacity:1; }
 
-/* iPhone bar */ 
-#iphone div.top { z-index:99; }
-#iphone div.bottom { z-index:98; height:150px; }
-#iphone:hover div.top { z-index:999; background-color:#1f81ac; margin-left:160px; }
-#iphone:hover div.bottom { z-index:998; background-color:#1a6c90; width:200px;
+/* SFSU bar */ 
+#SFSU div.top { z-index:99; }
+#SFSU div.bottom { z-index:98; height:150px; }
+#SFSU:hover div.top { z-index:999; background-color:#1f81ac; margin-left:190px; }
+#SFSU:hover div.bottom { z-index:998; background-color:#1a6c90; width:230px;
 	background:-moz-linear-gradient(-90deg, #1a6c90, #14506b); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#1a6c90), to(#14506b)); }
 
-/* MacBook bar */
-#macbook div.top { z-index:97; }
-#macbook div.bottom { z-index:96; height:200px; }
-#macbook:hover div.top { z-index:997; background-color:#bc003c; margin-left:210px; }
-#macbook:hover div.bottom { z-index:996; background-color:#9d0032; width:250px;
+/* hr bar */
+#hr div.top { z-index:97; }
+#hr div.bottom { z-index:96; height:200px; }
+#hr:hover div.top { z-index:997; background-color:#bc003c; margin-left:40px; }
+#hr:hover div.bottom { z-index:996; background-color:#9d0032; width:80px;
 	background:-moz-linear-gradient(-90deg, #9d0032, #7a0027); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#9d0032), to(#7a0027)); }
 
-/* iPod bar */
-#ipod div.top { z-index:95; }
-#ipod div.bottom { z-index:94; height:250px; }
-#ipod:hover div.top { z-index:995; background-color:#d98f23; margin-left:270px; }
-#ipod:hover div.bottom { z-index:994; background-color:#b6781e; width:310px;
+/* pg bar */
+#pg div.top { z-index:95; }
+#pg div.bottom { z-index:94; height:250px; }
+#pg:hover div.top { z-index:995; background-color:#d98f23; margin-left:170px; }
+#pg:hover div.bottom { z-index:994; background-color:#b6781e; width:210px;
 	background:-moz-linear-gradient(-90deg, #b6781e, #916018); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#b6781e), to(#916018)); }
 
-/* Cinema Display bar */
-#cinema div.top { z-index:93; }
-#cinema div.bottom { z-index:92; height:100px; }
-#cinema:hover div.top { z-index:993; background-color:#7da864; margin-left:110px; }
-#cinema:hover div.bottom { z-index:992; background-color:#698d54; width:150px;
+/* mnm Display bar */
+#mnm div.top { z-index:93; }
+#mnm div.bottom { z-index:92; height:100px; }
+#mnm:hover div.top { z-index:993; background-color:#7da864; margin-left:110px; }
+#mnm:hover div.bottom { z-index:992; background-color:#698d54; width:150px;
 	background:-moz-linear-gradient(-90deg, #698d54, #506b40); background:-webkit-gradient(linear, 0 top, 0 bottom, from(#698d54), to(#506b40)); }
 
 /* Mac Mini bar */

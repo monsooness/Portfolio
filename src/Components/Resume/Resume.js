@@ -16,7 +16,7 @@ render() {
       <div id="wrapper">
         <div id="content">
           <ul id="bar">
-            <li id="iphone">
+            <li id="SFSU">
               <div class="top">
                 <img src={SFSU} height="100" width="100" alt="SFSU" />
               </div>
@@ -27,7 +27,7 @@ render() {
                 </div>
               </div>
             </li>
-            <li id="ipod">
+            <li id="pg">
               <div class="top">
                 <img src={PG} height="100" width="100" alt="Profile Genomics" />
               </div>
@@ -38,7 +38,7 @@ render() {
                 </div>
               </div>
             </li>
-            <li id="cinema">
+            <li id="mnm">
               <div class="top">
                 <img src={MNM} height="100" width="100" alt="MNM" />
               </div>
@@ -49,7 +49,7 @@ render() {
                 </div>
               </div>
             </li>
-            <li id="macbook">
+            <li id="hr">
               <div class="top">
                 <img src={HR} height="100" width="100" alt="MacBook" />
               </div>
