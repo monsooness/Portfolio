@@ -1,1 +1,0 @@
-This is a personal portfolio showcasing all of my artwork in one website.
