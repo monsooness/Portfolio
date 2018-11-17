@@ -12,10 +12,11 @@ render() {
   return (
     <div>
       <div className="intro">Timeline</div>
-      <div className="container">
+      <div className="resume_container">
       <div id="wrapper">
         <div id="content">
           <ul id="bar">
+
             <li id="SFSU">
               <div class="top">
                 <img src={SFSU} height="100" width="100" alt="SFSU" />
@@ -27,6 +28,7 @@ render() {
                 </div>
               </div>
             </li>
+
             <li id="pg">
               <div class="top">
                 <img src={PG} height="100" width="100" alt="Profile Genomics" />
@@ -38,6 +40,7 @@ render() {
                 </div>
               </div>
             </li>
+
             <li id="mnm">
               <div class="top">
                 <img src={MNM} height="100" width="100" alt="MNM" />
@@ -49,6 +52,7 @@ render() {
                 </div>
               </div>
             </li>
+
             <li id="hr">
               <div class="top">
                 <img src={HR} height="100" width="100" alt="MacBook" />
@@ -60,6 +64,7 @@ render() {
                 </div>
               </div>
             </li>
+            
             {/* <li id="macmini">
               <div class="top">
                 <img src="images/macmini.png" alt="Mac Mini" />
