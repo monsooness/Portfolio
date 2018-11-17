@@ -47,8 +47,8 @@ render() {
               </div>
               <div class="bottom">
                 <div class="infobox">
-                  <h3>Freelance Developer (2018)</h3>
-                  <p> Self-Teaching/freelancing </p>
+                  <h3>Developer (2018)</h3>
+                  <p> Freelancing </p>
                 </div>
               </div>
             </li>
@@ -64,7 +64,7 @@ render() {
                 </div>
               </div>
             </li>
-            
+
             {/* <li id="macmini">
               <div class="top">
                 <img src="images/macmini.png" alt="Mac Mini" />

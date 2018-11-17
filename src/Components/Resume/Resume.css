@@ -10,8 +10,8 @@
 .resume_container { 
   background: -moz-radial-gradient(#364D58,#000); 
   background: -webkit-gradient(radial, center center,10,center center,1000, from(#364D58), to(#000)); 
-  color:rgb(147, 145, 145);  
-  height: 92vh;
+  background-color:rgb(147, 145, 145);  
+
 }
 
 /* WRAPPER */
