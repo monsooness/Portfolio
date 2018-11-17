@@ -6,6 +6,7 @@
   bottom: 0;
   background-color: whitesmoke;
   width: 100%;
+  z-index:999;
 }
 
 .navbar:after {
