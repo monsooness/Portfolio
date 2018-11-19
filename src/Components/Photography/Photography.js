@@ -26,12 +26,12 @@ class Photography extends Component {
 
     return (
       <div className="container">
-        <Country photos={india} />
-        <Country photos={nepal} />
-        <Country photos={peru} />
-        <Country photos={bhutan} />
-        <Country photos={myanmar} />
-        <Country photos={thailand} />
+        <Country photos={india} name={'India'} />
+        <Country photos={nepal} name={'Nepal'} />
+        <Country photos={peru} name={'Peru'} />
+        <Country photos={bhutan} name={'Bhutan'} />
+        <Country photos={myanmar} name={'Myanmar'} />
+        <Country photos={thailand} name={'Thailand'} />
       </div>
     )
   }

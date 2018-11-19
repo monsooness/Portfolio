@@ -21,7 +21,7 @@ class Mathart extends Component {
     return (
       <div>
         <div className="intro">
-          Circles
+          circles
         </div>
        
         <div classNam="art-container">
