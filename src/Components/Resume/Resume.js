@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
-import SFSU from './Images/SFSFU.JPG';
-import PG from './Images/profileGenomics.JPG';
+import SFSU from './Images/SFSU.jpg';
+import PG from './Images/profileGenomics.jpg';
 import MNM from './Images/mnm.jpg';
 import HR from './Images/hack-reactor.jpg'
 

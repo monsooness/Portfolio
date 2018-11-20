@@ -51,7 +51,7 @@ li {
 	-webkit-transition-property: color;
 	-webkit-transition-duration: 500ms;
 }
-#bar li div.bottom div.infobox h3 { font-family:Georgia,serif,Times; }
+#bar li div.bottom div.infobox h3 { font-family:Georgia,serif,Times; z-index: 999}
 #bar li div.bottom div.infobox p { font-family:"Lucida Grande",Arial,Helvetica,Sans-Serif; opacity: 0;
 	-webkit-transition-property: opacity;
 	-webkit-transition-duration: 500ms;
@@ -98,7 +98,7 @@ background:-moz-linear-gradient(-90deg, #340e43, #1a0721); background:-webkit-gr
 
 @media all and (max-width: 800px) {
   #wrapper { width:145%; margin:-16px auto; }
-  #bar li div.bottom div.infobox { padding:10px 250px;} 
+  #bar li div.bottom div.infobox { padding:10px 250px;}
 }
 
 @media all and (max-width: 500px) {
