@@ -4,6 +4,7 @@ import SFSU from './Images/SFSU.jpg';
 import PG from './Images/profileGenomics.JPG';
 import MNM from './Images/mnm.jpg';
 import HR from './Images/hack-reactor.jpg'
+import EC from './Images/ec_logo.jpg'
 
 import './Resume.css'
 
@@ -55,7 +56,7 @@ render() {
 
             <li id="hr">
               <div class="top">
-                <img src={HR} height="100" width="100" alt="MacBook" />
+                <img src={HR} height="100" width="100" alt="HackReactor" />
               </div>
               <div class="bottom">
                 <div class="infobox">
@@ -65,17 +66,17 @@ render() {
               </div>
             </li>
 
-            {/* <li id="macmini">
+            <li id="ec">
               <div class="top">
-                <img src="images/macmini.png" alt="Mac Mini" />
+                <img src={EC} height="100" width="100" alt="EmersonCollective" />
               </div>
               <div class="bottom">
                 <div class="infobox">
-                  <h3>Mac&nbsp;Mini</h3>
-                  <p>55,6</p>
+                  <h3>Emerson Collective (2019)</h3>
+                  <p>Web Developer</p>
                 </div>
               </div>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

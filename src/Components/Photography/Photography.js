@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
 
 import Country from './Country.js'
-
+import AdSense from 'react-adsense';
 import './Photography.css'
 
 class Photography extends Component {
@@ -26,12 +26,19 @@ class Photography extends Component {
 
     return (
       <div className="container">
-        <Country photos={india} name={'India'} />
-        <Country photos={nepal} name={'Nepal'} />
-        <Country photos={peru} name={'Peru'} />
+              <AdSense.Google
+  client='ca-pub-7292810486004926'
+  slot='7806394673'
+  style={{ display: 'block' }}
+  layout='in-article'
+  format='fluid'
+/>
         <Country photos={bhutan} name={'Bhutan'} />
         <Country photos={myanmar} name={'Myanmar'} />
         <Country photos={thailand} name={'Thailand'} />
+        <Country photos={india} name={'India'} />
+        <Country photos={nepal} name={'Nepal'} />
+        <Country photos={peru} name={'Peru'} />
       </div>
     )
   }

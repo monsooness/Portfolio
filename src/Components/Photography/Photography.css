@@ -34,14 +34,22 @@
 
 @media all and (max-width: 800px) {
   .container {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid | inline-grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
   }
+
+
 }
 
 @media all and (max-width: 500px) {
   .container {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid | inline-grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;    
+  }
+
+  .photoGrid {
+    /* display: flex; */
   }
 }
