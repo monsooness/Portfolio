@@ -61,7 +61,7 @@ render() {
               <div class="bottom">
                 <div class="infobox">
                   <h3>Hack Reactor (2018)</h3>
-                  <p>Advanced Software Engineering Bootcamp </p>
+                  <p>Software Engineering Bootcamp </p>
                 </div>
               </div>
             </li>
