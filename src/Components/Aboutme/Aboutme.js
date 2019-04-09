@@ -38,10 +38,10 @@ class Aboutme extends Component {
         </div>
 
         <div className="links">
-          <a target="_blank" href='https://github.com/monsooness'><img src={github} alt="Github Logo"/></a> 
-          <a target="_blank" href='https://www.linkedin.com'><img src={linkedin} alt="Linkedin Logo"/></a> 
-          <a target="_blank" href='https://www.facebook.com/pandeymonsoon'><img src={facebook} alt="facebook"/></a> 
-          <a target="_blank" href='https://www.instagram.com/'><img src={instagram} alt="instagram"/></a> 
+          <a target="noopener noreferrer" href='https://github.com/monsooness'><img src={github} alt="Github Logo"/></a> 
+          <a target="noopener noreferrer" href='https://www.linkedin.com'><img src={linkedin} alt="Linkedin Logo"/></a> 
+          <a target="noopener noreferrer" href='https://www.facebook.com/pandeymonsoon'><img src={facebook} alt="facebook"/></a> 
+          <a target="noopener noreferrer" href='https://www.instagram.com/'><img src={instagram} alt="instagram"/></a> 
         </div>
 
       </div>

@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { withRouter} from 'react-router-dom';
 
 import Country from './Country.js'
-import AdSense from 'react-adsense';
 import './Photography.css'
 
 class Photography extends Component {
-  constructor(props) {
-    super(props)
-  }
+  // constructor(props) {
+  //   super(props)
+  // }
   
   importAll = (r) => {
     let images = {};
