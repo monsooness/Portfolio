@@ -17,11 +17,18 @@ import './Mathart.css'
 
 class Mathart extends Component {
 
+  // constructor(props) {
+  //   super(props) {
+      
+  //   }
+  // }
+
   render() {
     return (
       <div>
         <div className="intro">
           circles
+          Hand Drawn
         </div>
        
         <div classNam="art-container">
